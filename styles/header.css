@@ -9,7 +9,7 @@ body {
 }
 
 .top-header {
-    background-image: url(images/original.jpeg);
+    background-image: url(../../hulu-clone/images/original.jpeg);
     background-size: cover;
     height: 90vh;
     height: 660px;
