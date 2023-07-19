@@ -1,0 +1,353 @@
+.library-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300.5px;
+    background-color: black;
+}
+
+.library-info {
+    text-align: center;
+    width: 996px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.library-content {
+    font-size: 48px;
+    color: white;
+}
+
+.library-description {
+    /* padding-top: 20px; */
+    width: 750px;
+    color: white;
+}
+
+.plan-promo {
+    /* margin-bottom: 20px; */
+    color: rgb(21, 231, 131);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.top-shows-container {
+    display: grid;
+    height: 600.15px;
+    justify-content: center;
+    background-color: black;
+    padding-bottom: 200px;
+
+}
+
+.show-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 450.15px;
+    /* justify-content: center; */
+    column-gap: 20px;
+}
+
+.show {
+    width: 311px;
+    height: 467px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s;
+
+}
+
+.show img {
+    height: 451px;
+    width: 295px;
+    border-radius: 5px;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+
+.show:hover {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(201, 201, 201);
+    opacity: 0.6;
+}
+
+.billboard-container {
+    display: flex;
+    justify-content: center;
+    height: 587.15px;
+    width: 1517.2px;
+    background-color: black;
+
+}
+
+.billboard-content {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.billboard-eyebrow {
+    color: rgb(21, 231, 131);
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.billboard-headline {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+
+}
+
+.billboard-subheadline {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    width: 741.75px;
+    line-height: 1.36;
+
+}
+
+.billboard-disclaimer {
+    color: rgb(174, 174, 174);
+    text-align: center;
+    font-size: 10px;
+    width: 752px;
+}
+
+.billboard-area-button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.spotlight-section {
+    height: 811px;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)), url(images/spotlight.jpeg);
+    background-size: cover;
+
+}
+
+.spotlight-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.spotlight-content {
+    width: 70%;
+    margin: auto;
+
+}
+
+.TabButtons-tab {
+    margin-right: 25px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.tabButtons-activeBar {
+    background-color: white;
+    color: white;
+    height: 4px;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+#tab1,
+#tab2 {
+    color: rgb(159, 159, 159);
+}
+
+.current-tab {
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.current-tab:hover {
+    opacity: 0.7;
+}
+
+.content-headline {
+    width: auto;
+    margin-top: 30px;
+}
+
+.spotlight-headline {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.content-subheadline {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.spotlight-subheadline {
+    color: white;
+    line-height: 23.76px;
+}
+
+.nw-logos {
+    display: flex;
+    margin-top: 20px;
+}
+
+.nw-logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 100%;
+
+}
+
+.nw-logo-img img {
+    width: 38px;
+    height: 23px;
+}
+
+.plan-features-container {
+    height: 1050px;
+    background-color: black;
+    margin-top: -20px;
+}
+
+.plans-feature-table {
+    width: 70%;
+    margin: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.plans-feature-header {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.plans-headline {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.table-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 25px;
+}
+
+.plan-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    border-spacing: 5px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color: gray;
+    padding-top: 25px;
+}
+
+.plan-duration {
+    font-size: 18px;
+    color: #a8afbd;
+}
+
+.ads-plan {
+    padding-left: 19px;
+    color: white;
+}
+
+.plan-row .check-entity {
+    color: rgb(28, 231, 131);
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.blank {
+    padding-left: 20px;
+}
+
+.popular-plan {
+    background-color: rgb(28, 231, 131);
+    padding-bottom: 3px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 3px;
+    border-radius: 27px;
+    font-size: 12px;
+    color: black;
+    margin-top: -8px;
+}
+
+.plan-buy-button button {
+    margin-top: 6px;
+    width: 268.659px;
+    border: none;
+    border-radius: 5px;
+    height: 45px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.plan-buy-button button:hover {
+    opacity: 0.5;
+}
+
+.column-1 {
+    flex: 150px;
+
+}
+
+.column-2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.column-3 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.plan-box1 {
+    flex: 2;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.plan-box {
+    flex: 1;
+    display: flex;
+}
